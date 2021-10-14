@@ -1,0 +1,16 @@
+(19/09/2021@stven) -> Elegir entre las dos formas 
+presentadas de definir sus controladores de eventos 
+es sobre todo una cuestión de gustos.
+
+example: 
+1)
+const setNewValue = (newValue) => () => {
+  setValue(newValue)
+}
+<button onClick={setNewValue(10)}></button>
+
+2)
+const setNewValue = (newValue) => {
+  setValue(newValue)
+}
+<button onClick={() => setNewValue(10)}></button>
