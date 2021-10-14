@@ -1,1 +1,0 @@
-link: https://fullstackopen.com/es/part1/un_estado_mas_complejo_depurando_aplicaciones_react#manejo-de-eventos-revisitado
